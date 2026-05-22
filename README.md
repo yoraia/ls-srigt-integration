@@ -56,10 +56,11 @@ Set the capture method for your LiveSplit source in OBS to Windows 10 (1903 and 
 Set timing method to game time inside livesplit, otherwise the timer will use real time (Bad)  
 Right click -> Compare Against -> Game time  
 
-When you're ready to start using the mod, start the livesplit server  
-Right click -> Control -> Start tcp server  
+When you're ready to start using the mod, start the livesplit server.  
+Right click -> Control -> Start tcp server
+The port is `16834` by default, don't change it or else it probably won't work
 
-Then connect to the livesplit server by going to the srigt menu and scrolling to the bottom of the general tab. if you want to edit your autosplit conditions, edit them in the splits.txt file and then reload your splits. once you load into a world, you should hopefully see the timer running alongside srigt  
+once that's done, go to the srigt menu ingame. scroll to the bottom of the general tab and click on Connect to Livesplit. if you want to edit your split conditions, edit them in the splits.txt file and then reload your splits which is found in the same menu. once you load into a new world, you should hopefully see the timer running alongside srigt  
 
 ## external components i like to have displayed (optional)
 
@@ -84,7 +85,7 @@ If somehow there’s a case where an item isn’t read properly for splits, Item
 
 # potential to do list
 
-port to other versions  
+Port to other versions  
 Load different split files  
 Properly read current split  
 Ingame menu or way to add split conditions  
@@ -92,7 +93,7 @@ Decathlon support ??
 splits built into the mod itself/srigt !! 
 
 # contact
-if you have any issues or suggestions, my discord is ```hystericnightgirl```  
+if you have any issues or suggestions, my discord is `hystericnightgirl` 
 or you can join the ctm speedrunning guild (the community which this mod was made for) and ask me there  
 https://discord.gg/QN4wQTat4J
 
