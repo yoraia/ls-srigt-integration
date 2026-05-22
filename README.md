@@ -57,10 +57,10 @@ Set timing method to game time inside livesplit, otherwise the timer will use re
 Right click -> Compare Against -> Game time  
 
 When you're ready to start using the mod, start the livesplit server.  
-Right click -> Control -> Start tcp server
-The port is `16834` by default, don't change it or else it probably won't work
+Right click -> Control -> Start tcp server  
+The port is `16834` by default, don't change it or else it probably won't work  
 
-once that's done, go to the srigt menu ingame. scroll to the bottom of the general tab and click on Connect to Livesplit. if you want to edit your split conditions, edit them in the splits.txt file and then reload your splits which is found in the same menu. once you load into a new world, you should hopefully see the timer running alongside srigt  
+once that's done, go to the srigt menu ingame. scroll to the bottom of the general tab and click on `Connect to Livesplit`. if you want to edit your split conditions, edit them in the splits.txt file and then reload your splits which is found in the same menu. once you load into a new world, you should hopefully see the timer running alongside srigt  
 
 ## external components i like to have displayed (optional)
 
@@ -77,11 +77,12 @@ shows how good your run is compared to the best run you’ve ever to that split
 
 # issues
 
-Autosplit works sequentially in the splits.txt file, meaning that if you want to test if a split works then you’ll have to set it as the first split in the file then reload splits, then place it in the correct spot when you’re done.  
+The console/logs will have outputs for split names, conditions, coordinates, and a list of items in your inventory (when you reload splits inside of a world). This should help debug any issues you have if the autosplit isn’t working.  
+If somehow there’s a case where an item isn’t read properly for splits, Items will have their “raw” name displayed next to them in the console/logs (for example, the raw name of an Emerald with green text would be `§aEmerald`, i've tried to remove these cases so you can just write `Emerald` but let me know if you come across something that doesn't work).  
+
+Furthermore, splits work sequentially in the splits.txt file, meaning that if you want to test if a split works then you’ll have to set it as the first split in the file then reload splits, then place it in the correct spot when you’re done.  
 (This also means that skipping splits (livesplit feature) is not recommended as the conditions may be mismatched to the split you’re on, but you shouldn’t really have to do this anyway.)
 
-The console/logs will have outputs for split names, conditions, coordinates, and a list of items in your inventory (when you reload splits inside of a world). This should help debug any issues you have if the autosplit isn’t working.  
-If somehow there’s a case where an item isn’t read properly for splits, Items will have their “raw” name displayed next to them in the console/logs (for example, an Emerald with a green name will be named §aEmerald, whereas you would just use "Emerald" for the split condition).
 
 # potential to do list
 
