@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "livesplitintegration",
+  "version": "${version}",
+  "name": "Livesplit Integration",
+  "description": "Uses SpeedrunIGT to send IGT to Livesplit",
+  "authors": [
+    "yoraia"
+  ],
+  "license": "MIT",
+  "icon": "assets/livesplitintegration/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.livesplitintegration.LivesplitIntegration"
+    ],
+    "speedrunigt": [
+      "net.livesplitintegration.SrIGTMenu"
+    ]
+  },
+  "mixins": [
+    "livesplitintegration.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.8.9",
+    "speedrunigt": ">=7.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.livesplitintegration.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "InGameTimeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
