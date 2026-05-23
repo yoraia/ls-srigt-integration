@@ -62,7 +62,7 @@ When you're ready to start using the mod, start the livesplit server.
 Right click -> Control -> Start tcp server  
 The port is `16834` by default, don't change it or else it probably won't work  
 
-once that's done, go to the srigt menu ingame. scroll to the bottom of the general tab and click on `Connect to Livesplit`. if you want to edit your split conditions, edit them in the splits.txt file and then reload your splits which is found in the same menu. once you load into a new world, you should hopefully see the timer running alongside srigt  
+once that's done, go to the srigt menu ingame. scroll to the bottom of the general tab and click on `Connect to Livesplit`. if you want to edit your split conditions, edit them in the splits.txt file and then reload your splits which is found in the same menu. once you load into a new world and the timer starts, you should hopefully see the timer running alongside srigt. when you reset, the timer will keep going until start another run (or reset it yourself)  
 
 ## external components i like to have displayed (optional)
 
