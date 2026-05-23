@@ -4,6 +4,8 @@
 Make a txt file called `splits.txt` and place it in the `.minecraft/config` folder.  
 The 'name' for each split in the file doesnt matter.  
 Its possible to do item only, just remove any coordinates and only have the split name / item. Names for items are typed as you see them when you hover over them in the inventory.
+The final split should happen automatically once the run is complete
+
 ### coordinate range format
 
 ```txt
