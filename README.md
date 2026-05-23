@@ -100,6 +100,7 @@ splits built into the mod itself/srigt !!
 # contact
 if you have any issues or suggestions, my discord is `hystericnightgirl` 
 or you can join the ctm speedrunning guild (the community which this mod was made for) and ask me there  
-https://discord.gg/QN4wQTat4J
+https://discord.gg/QN4wQTat4J  
 
- this is the first time i've ever released something publically or even tried to mod something so sorry if things are wrong on the github/building side of things
+note: used openai for file parsing  
+this is the first time i've ever released something publically or even tried to mod something so sorry if things are wrong on the github/building side of things
